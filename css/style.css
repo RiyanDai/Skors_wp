@@ -40,7 +40,7 @@
    * gradient color
    */
 
-  --gradient: linear-gradient(to left top, var(--persian-rose), var(--safety-orange));
+  --gradient: linear-gradient(to left top, var(--persian-rose), var(--white));
 
   /**
    * typography
@@ -177,6 +177,10 @@ body {
 .container { 
   padding-inline: 15px; }
 
+.bannerHome{
+  padding: 0px 55px;
+}
+
 .btn {
   max-width: max-content;
   color: var(--white-1);
@@ -189,9 +193,10 @@ body {
 
 .btn-primary {
   background-image: var(--gradient);
-  background: #4FCFD4;
+  background: #00B9CB;
   background-size: 1000%;
-  font-family: "Inter";
+  font-family: "DMS Sans";
+  font-size: x-large;
 }
 
 .btn-primary:is(:hover, :focus) { background-position: bottom right; }
@@ -205,7 +210,11 @@ body {
   background-color: var(--eerie-black);
   color: var(--white-1);
 }
-
+.center{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
 .section { padding-block: var(--section-padding); }
 
 .h1,
@@ -223,7 +232,24 @@ body {
 .h3 { font-size: var(--fs-3); }
 
 .w-100 { width: 100%; }
-
+.section-title{
+  background-color: #006872;
+  color:var(--white-1);
+  padding: 15px 5px;
+}
+.demo{
+  position: relative;
+  padding: 15px 5px;
+  left: 10%; 
+  color: black;
+}
+.demoapp{
+  position: relative;
+  padding: 15px 5px;
+  left: 10%; 
+  margin-top: 20%;
+  color: black;
+}
 .section-title,
 .section-text { text-align: center; }
 .section-image {
@@ -274,7 +300,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.klien{
+  padding: 20px;
+}
+.klien-h2{
+  color: var(--black);
+}
 .logo {
   font-family: var(--ff-league-spartan);
   color: var(--black);
@@ -282,7 +313,18 @@ body {
   font-weight: var(--fw-700);
   line-height: 1;
 }
-
+.riview{
+  display: flex;
+}
+.profil-review{
+  color: black;
+  margin: 50px;
+}
+.text-review{
+  color: black;
+  font-family: "DMS Sans";
+  font-size: 24px;
+}
 .nav-toggle-btn { font-size: 40px; }
 
 .nav-toggle-btn.active .open,
@@ -347,11 +389,14 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  padding-block-start: calc(var(--section-padding) + 50px);
+  padding-block-start: calc(var(--section-padding) + 30px);
   text-align: center;
 }
 
-.hero-content { margin-block-end: 30px; }
+.hero-content { 
+  margin-block-end: 30px; 
+  justify-content: center;
+}
 
 .hero-subtitle {
   color: var(--eerie-black);
@@ -443,7 +488,7 @@ body {
 
 .project-card .card-content {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   padding: 20px;
@@ -457,6 +502,8 @@ body {
   color: var(--lavender-gray);
   font-size: var(--fs-6);
   line-height: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .project-card .card-title {
@@ -538,6 +585,8 @@ body {
   background-position: center;
   background-attachment: fixed;
   z-index: 1;
+  display: flex;
+
 }
 
 .cta::after {
@@ -553,7 +602,7 @@ body {
 }
 
 .cta-subtitle,
-.cta .section-title { color: var(--white-1); }
+.cta .section-title { color: var(--black); }
 
 .cta-subtitle {
   font-size: var(--fs-6);
@@ -563,7 +612,11 @@ body {
 
 .cta .section-title { margin-block: 12px 18px; }
 
-.cta .btn { margin-inline: auto; }
+.cta .btn { 
+  position: relative;
+  margin-top: 4%;
+  left: 10%;
+}
 
 
 
@@ -572,7 +625,9 @@ body {
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
-
+.blog { 
+  background-color: #006872; 
+  padding: 37px 0px;}
 .blog .section-text { margin-block: 5px 35px; }
 
 .blog-card { background-color: var(--white-2); }
@@ -586,7 +641,7 @@ body {
 .blog-card .card-content { padding: 15px; }
 
 .blog-card .time {
-  color: var(--red-crayola);
+  color: #00B9CB;
   font-size: var(--fs-6);
   line-height: 1;
   margin-block-end: 10px;
@@ -594,7 +649,7 @@ body {
 
 .blog-card .card-title { transition: var(--transition-1); }
 
-.blog-card .card-title:is(:hover, :focus) { color: var(--red-crayola); }
+.blog-card .card-title:is(:hover, :focus) { color: #00B9CB; }
 
 
 
@@ -604,12 +659,12 @@ body {
   #CONTACT
 \*-----------------------------------*/
 
-.contact { background-color: var(--white-2); }
+.contact { background-color: #006872; }
 
 .contact .section-text { margin-block: 5px 35px; }
 
 .contact-form {
-  background-color: var(--white-1);
+  background-color:#006872;;
   padding: 20px;
   border-radius: var(--radius-2);
   margin-block-end: 30px;
@@ -729,7 +784,7 @@ textarea.input-field {
 }
 
 .copyright-link {
-  color: var(--red-crayola);
+  color: #00B9CB;
   font-weight: var(--fw-500);
   display: inline-block;
 }
@@ -1152,7 +1207,7 @@ textarea.input-field {
    * PROJECT
    */
 
-  .project-card .card-content { padding: 30px; }
+  .project-card .card-content { padding: 40px; }
 
   .project-card .card-subtitle { --fs-6: 1.6rem; }
 

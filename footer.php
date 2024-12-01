@@ -5,20 +5,20 @@
 <section class="section contact" id="contact" aria-label="contact">
   <div class="container">
     <form action="" class="contact-form">
-    <h2 class="h2 section-title">Subscribe to our daily newsletter</h2>
+    <h2 class="h2 section-title">Berlangganan Artikel Harian Kami</h2>
 
     <p class="h3 section-title">
-      Be update with us now!
+      Jadilah Terkini Bersama Kami
     </p>
 
     
 
       <div class="input-wrapper">
-        <input type="email" name="email_address" aria-label="email" placeholder="Enter your Email" required
+        <input type="email" name="email_address" aria-label="email" placeholder="Masukkan Email" required
           class="input-field">
       </div>
       <div class="input-wrapper">
-        <button type="submit" class="btn btn-primary">Subscribe</button>
+        <button type="submit" class="btn btn-primary">Berlanggan</button>
       </div>
 
     </form>

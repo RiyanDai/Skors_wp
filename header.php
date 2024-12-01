@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SKORS!</title>
 
-  <link rel="shortcut icon" href="<?= get_theme_file_uri( '/img/favicon.svg' ) ?>" type="image/svg+xml">
+  <link rel="shortcut icon" href="<?= get_theme_file_uri( '/img/sortcut.png' ) ?>" type="image/svg+xml">
 
   <link rel="stylesheet" href="<?php echo get_theme_file_uri( 'css/style.css' ) ?>">
 

@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SKORS!</title>
 
-  <link rel="shortcut icon" href="<?= get_theme_file_uri( '/img/favicon.svg' ) ?>" type="image/svg+xml">
+  <link rel="shortcut icon" href="<?= get_theme_file_uri('/img/favicon.svg') ?>" type="image/svg+xml">
 
-  <link rel="stylesheet" href="<?php echo get_theme_file_uri( 'css/style.css' ) ?>">
+  <link rel="stylesheet" href="<?php echo get_theme_file_uri('css/style.css') ?>">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +20,9 @@
 
 <body id="top">
   <header class="header" data-header>
-    <div class="container" id="judul">
-      <img src="<?= get_theme_file_uri( 'img/Logo-Putih.svg' )?>" alt="logo" >
-      <div class="top_menu" data-navbar>
+    <div class="container">
+      <img src="<?= get_theme_file_uri('img/Logo-Putih.svg') ?>" alt="logo">
+      <nav class="navbar container" data-navbar>
         <ul class="navbar-list">
 
           <li>
@@ -43,18 +43,20 @@
 
 
         </ul>
-      </di>
+      </nav>
 
       <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
         <ion-icon name="menu-outline" class="open"></ion-icon>
         <ion-icon name="close-outline" class="close"></ion-icon>
       </button>
 
-    </div>
+      </di>
   </header>
 
   <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module"
+    src="<?= get_theme_file_uri("https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js") ?>"></script>
+  <script nomodule
+    src="<?= get_theme_file_uri("https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js") ?>"></script>

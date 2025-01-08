@@ -130,7 +130,7 @@
 <!-- 
     - custom js link
   -->
-<script src="<?= get_theme_file_uri('js/script.js') ?>" defer></script>
+  
 
 <!-- 
     - ionicon link

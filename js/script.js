@@ -16,6 +16,8 @@ const addEventOnElem = function (elem, type, callback) {
 
 
 
+
+
 /**
  * toggle navbar
  */
@@ -56,3 +58,28 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+function showHamburger(){
+  var hamburger_icon = document.querySelector("icon");
+  if (hamburger_icon.style.display == "none") {
+      hamburger_icon.style.display = "flex";
+      hamburger_icon.style.flexDirection = "column";
+  }else if (hamburger_icon.style.display == "flex") {
+      hamburger_icon.style.display = "none";
+  }
+}
+
+
+
+jQuery(document).ready(function($){
+  $(".owl-carousel").owlCarousel({
+      items: 1, // menampilkan satu item per slide
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 5000, // waktu per slide
+      autoplayHoverPause: true
+  });
+});
+
+
+

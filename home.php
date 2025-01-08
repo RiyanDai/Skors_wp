@@ -109,7 +109,7 @@
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-2.jpg" width="510" height="700" loading="lazy"
+                  <img src="<?= get_theme_file_uri( "img/project-2.jpg" ) ?>" width="510" height="700" loading="lazy"
                     alt="Building design process within teams" class="img-cover">
                 </figure>
 

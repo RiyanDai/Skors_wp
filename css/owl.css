@@ -278,8 +278,8 @@
   .custom-banner h1 {
     padding-top: 25px;
     font-size: 36px;             /* Ukuran font */
-    color: #FFD700;              /* Warna teks kuning keemasan */
-    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700; /* Efek glow */
+    color: #00B9CB;              /* Warna teks kuning keemasan */
+    text-shadow: 0 0 10px #00B9CB, 0 0 20px #00B9CB; /* Efek glow */
     font-weight: bold;           /* Tebal teks */
     margin: 0;
   }

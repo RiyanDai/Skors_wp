@@ -39,3 +39,8 @@ function debug_query_footer() {
     }
 }
 add_action('wp_footer', 'debug_query_footer');
+
+function enqueue_custom_fonts() {
+    wp_enqueue_style('dm-sans-font', 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap', false, null);
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');

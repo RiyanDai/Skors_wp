@@ -194,7 +194,7 @@ body {
   background-image: var(--gradient);
   background: #00B9CB;
   background-size: 1000%;
-  font-family: "DMS Sans";
+  font-family: 'DM Sans';
   font-size: x-large;
 }
 
@@ -220,7 +220,7 @@ body {
 .h2,
 .h3 {
   color: var(--eerie-black);
-  font-family: var(--ff-league-spartan);
+  font-family: 'DM Sans';
   line-height: 1.2;
 }
 
@@ -273,6 +273,7 @@ body {
 }
 .link-article{
   color: #fff;
+  font-family: 'DM Sans';
   text-decoration: underline;
   text-align: right;
 }
@@ -294,6 +295,7 @@ body {
 }
 .moto{
   color: black;
+  font-family: 'DM Sans';
   padding: 10px 0px;
 }
 .client-wrap{
@@ -390,7 +392,7 @@ body {
 
 .navbar-link {
   color: var(--white-1);
-  font-family: var(--ff-league-spartan);
+  font-family: 'DM Sans';
   font-size: var(--fs-4);
   line-height: 1.2;
   padding-block: 8px;
@@ -526,6 +528,7 @@ body {
 
 .project-card .card-subtitle {
   color: #00B9CB;
+  font-family: 'DM Sans';
   font-size: var(--fs-4);
   line-height: 1;
   display: flex;
@@ -534,6 +537,7 @@ body {
 
 .project-card .card-title {
   color: var(--white-1);
+  font-family: 'DM Sans';
   margin-block: 15px 20px;
   padding: 35px 0px;
   text-align: center;
@@ -548,12 +552,14 @@ body {
 }
 .nama-klien{
   color: black;
-  text-align: center;
+  font-family: 'DM Sans';
   padding: 50px 0px;
 }
 .profile-moto{
   color: black;
+  font-family: 'DM Sans';
   padding: 0px 80px;
+  text-align: justify;
 }
 
 
@@ -803,6 +809,7 @@ textarea.input-field {
 
 .contact-card :is(.card-link, .card-address) {
   font-size: var(--fs-6);
+  font-family: 'DM Sans';
   transition: var(--transition-1);
 }
 

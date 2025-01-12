@@ -23,10 +23,6 @@
         </div>
       </section>
 
-
-
-
-
       <!-- 
         - #SERVICE
       -->
@@ -39,10 +35,7 @@
           </div>
         </div>
       </section>
-      
-
-
-
+    
 
       <!-- 
         - #PROJECT

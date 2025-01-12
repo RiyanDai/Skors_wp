@@ -4,6 +4,7 @@
 
 <section class="section contact" id="contact" aria-label="contact">
   <div class="container">
+    <img src="<?= get_theme_file_uri( "img/footerLogo.png" ) ?>" loading="lazy" alt="logo">
     <form action="" class="contact-form">
     <h2 class="h2 section-title">Berlangganan Artikel Harian Kami</h2>
 

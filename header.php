@@ -34,11 +34,11 @@
           </li>
 
           <li>
-            <a href="#client" class="navbar-link" data-nav-link>Contact Us</a>
+            <a href="client" class="navbar-link" data-nav-link>Our Client</a>
           </li>
 
           <li>
-            <a href="article" class="navbar-link" data-nav-link>Article</a>
+            <a href="article" class="navbar-link" data-nav-link>Articles</a>
           </li>
 
 

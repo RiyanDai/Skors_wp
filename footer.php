@@ -5,20 +5,20 @@
 <section class="section contact" id="contact" aria-label="contact">
   <div class="container">
     <form action="" class="contact-form">
-    <h2 class="h2 section-title">Subscribe to our daily newsletter</h2>
+    <h2 class="h2 section-title">Berlangganan Artikel Harian Kami</h2>
 
     <p class="h3 section-title">
-      Be update with us now!
+    Jadilah Terkini Bersama Kami
     </p>
 
     
 
       <div class="input-wrapper">
-        <input type="email" name="email_address" aria-label="email" placeholder="Enter your Email" required
+        <input type="email" name="email_address" aria-label="email" placeholder="Masukkan Emailmu" required
           class="input-field">
       </div>
       <div class="input-wrapper">
-        <button type="submit" class="btn btn-primary">Subscribe</button>
+        <button type="submit" class="btn btn-primary">Berlanggan</button>
       </div>
 
     </form>
@@ -34,7 +34,7 @@
 
           <div class="card-content">
 
-            <h3 class="h3 card-title">Mail Here</h3>
+            <h3 class="h3 card-title">Alamat Surel</h3>
 
             <a href="mailto:support@goprodigital.net" class="card-link">support@goprodigital.net</a>
             <a href="mailto:support@goprodigital.net" class="card-link">support@goprodigital.net</a>
@@ -53,7 +53,7 @@
 
           <div class="card-content">
 
-            <h3 class="h3 card-title">Visit Here</h3>
+            <h3 class="h3 card-title">Kunjungi disini</h3>
 
             <address class="card-address">
               Jalan kuburan lama,<br>
@@ -74,7 +74,7 @@
 
           <div class="card-content">
 
-            <h3 class="h3 card-title">Call Here</h3>
+            <h3 class="h3 card-title">Kontak kami</h3>
 
             <a href="tel:08123456789" class="card-link">08123456789</a>
             <a href="tel:+2414524526" class="card-link"></a>

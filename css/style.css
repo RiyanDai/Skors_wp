@@ -286,12 +286,17 @@ body {
   gap: 115px;
   padding: 20px 0px;
 }
+.managenen{
+  display: flex;
+  padding: 20px 0px;
+}
 .kiri{
   width: 65%;
   padding: 200px 85px;
 }
 .kanan{
   width: 35%;
+  padding: 20px 0px;
 }
 .moto{
   color: black;
@@ -301,6 +306,37 @@ body {
 .client-wrap{
   padding-top: 20px;
 }
+.kiri-manegemen{
+  width: 60%;
+  padding: 20px 85px;
+}
+.kanan-manegemen{
+  width: 40%;
+  padding: 20px 0px;
+}
+.tim{
+  color: black;
+  text-align: center;
+}
+.daftar-tim{
+  display: flex;
+  gap: 55px;
+  padding: 20px 0px;
+  justify-content: center;
+}
+.ket{
+  color: black;
+  padding: 0px 10px;
+}
+.semboyan{
+  background-color: #006872;
+  color: white;
+  font-family: 'DM Sans';
+  text-align: center;
+  padding: 15px 0px;
+  margin: 40px 0px;
+}
+
 
 /*-----------------------------------*\
   #HEADER
